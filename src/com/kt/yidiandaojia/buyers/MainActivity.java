@@ -1,36 +1,97 @@
 package com.kt.yidiandaojia.buyers;
 
-import android.support.v7.app.ActionBarActivity;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.view.KeyEvent;
+import android.view.View;
+import android.widget.RadioGroup;
+import android.widget.Toast;
+
+import com.kt.yidiandaojia.buyers.fragment.FragmentTabAdapter;
+import com.kt.yidiandaojia.buyers.fragment.HomeFragment;
+import com.kt.yidiandaojia.buyers.fragment.MapFragment;
+import com.kt.yidiandaojia.buyers.fragment.MyFragment;
+import com.kt.yidiandaojia.buyers.fragment.ShoppingFragment;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends FragmentActivity {
+    /**
+     * Called when the activity is first created.
+     */
+    public static RadioGroup rgs;
+    public List<Fragment> fragments = new ArrayList<Fragment>();
+
+    private  FragmentTabAdapter tabAdapter;
+    public static View view;
+    public static Context context;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+        setContentView(R.layout.main);
+        view = findViewById(R.id.ll_main);
+        context = MainActivity.this;
 
+        fragments.add(new HomeFragment());
+        fragments.add(new MapFragment());
+        fragments.add(new ShoppingFragment());
+        fragments.add(new MyFragment());
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+        rgs = (RadioGroup) findViewById(R.id.tabs_rg);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        tabAdapter = new FragmentTabAdapter(this, fragments, R.id.tab_content, rgs);
+        tabAdapter.setOnRgsExtraCheckedChangedListener(new FragmentTabAdapter.OnRgsExtraCheckedChangedListener(){
+            @Override
+            public void OnRgsExtraCheckedChanged(RadioGroup radioGroup, int checkedId, int index) {
+                System.out.println("Extra---- " + index + " checked!!! ");
+            }
+        });
+        
     }
+    
+    /**
+	 * 监听返回--是否退出程序
+	 */ 
+	private static Boolean isExit = false;
+	
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		boolean flag = true;
+		if(keyCode == KeyEvent.KEYCODE_BACK) {
+			Timer tExit = null;  
+		    if (isExit == false) {  
+		        isExit = true; // 准备退出  
+		        Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();  
+		        tExit = new Timer();  
+		        tExit.schedule(new TimerTask() {  
+		            @Override  
+		            public void run() {  
+		                isExit = false; // 取消退出  
+		            }  
+		        }, 2000); // 如果2秒钟内没有按下返回键，则启动定时器取消掉刚才执行的任务  
+		  
+		    } else {  
+		        finish();  
+		        System.exit(0);  
+		    }  
+		}else if(keyCode == KeyEvent.KEYCODE_MENU){
+			
+		}else{
+			flag = super.onKeyDown(keyCode, event);
+		}
+		return flag;
+	}
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+	}
 }

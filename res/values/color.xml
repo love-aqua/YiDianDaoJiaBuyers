@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="full_transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="tabhost_bg">#F7F5F6</color>
+    <color name="progress_background">#00C0F3</color>
+    <color name="tab_selected_bg">#00C0F3</color>
+    <color name="popupwindow_bg">#00000000</color>
+</resources>
+
