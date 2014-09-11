@@ -22,7 +22,11 @@ import com.kt.yidiandaojia.buyers.fragment.MapFragment;
 import com.kt.yidiandaojia.buyers.fragment.MyFragment;
 import com.kt.yidiandaojia.buyers.fragment.ShoppingFragment;
 
-
+/**
+ * 首页的tabActivity
+ * @author kenzhao
+ *
+ */
 public class MainActivity extends FragmentActivity {
     /**
      * Called when the activity is first created.

@@ -1098,26 +1098,112 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
-        public static final int icon_139=0x7f020058;
-        public static final int icon_141=0x7f020059;
-        public static final int icon_144=0x7f02005a;
-        public static final int icon_147=0x7f02005b;
-        public static final int icon_154=0x7f02005c;
-        public static final int icon_157=0x7f02005d;
-        public static final int icon_160=0x7f02005e;
-        public static final int icon_162=0x7f02005f;
-        public static final int icon_163=0x7f020060;
-        public static final int icon_165=0x7f020061;
-        public static final int icon_167=0x7f020062;
-        public static final int icon_176=0x7f020063;
-        public static final int selector_tab=0x7f020064;
-        public static final int selector_tab_background=0x7f020065;
-        public static final int tab_home_btn=0x7f020066;
-        public static final int tab_map_btn=0x7f020067;
-        public static final int tab_my_btn=0x7f020068;
-        public static final int tab_shopping_btn=0x7f020069;
-        public static final int tabhost_bg_nol=0x7f02006a;
-        public static final int tabhost_bg_sel=0x7f02006b;
+        public static final int icon_03=0x7f020058;
+        public static final int icon_05=0x7f020059;
+        public static final int icon_08=0x7f02005a;
+        public static final int icon_10=0x7f02005b;
+        public static final int icon_101=0x7f02005c;
+        public static final int icon_104=0x7f02005d;
+        public static final int icon_106=0x7f02005e;
+        public static final int icon_109=0x7f02005f;
+        public static final int icon_114=0x7f020060;
+        public static final int icon_116=0x7f020061;
+        public static final int icon_119=0x7f020062;
+        public static final int icon_121=0x7f020063;
+        public static final int icon_123=0x7f020064;
+        public static final int icon_125=0x7f020065;
+        public static final int icon_13=0x7f020066;
+        public static final int icon_139=0x7f020067;
+        public static final int icon_141=0x7f020068;
+        public static final int icon_144=0x7f020069;
+        public static final int icon_147=0x7f02006a;
+        public static final int icon_15=0x7f02006b;
+        public static final int icon_154=0x7f02006c;
+        public static final int icon_157=0x7f02006d;
+        public static final int icon_160=0x7f02006e;
+        public static final int icon_162=0x7f02006f;
+        public static final int icon_163=0x7f020070;
+        public static final int icon_165=0x7f020071;
+        public static final int icon_167=0x7f020072;
+        public static final int icon_176=0x7f020073;
+        public static final int icon_179=0x7f020074;
+        public static final int icon_18=0x7f020075;
+        public static final int icon_182=0x7f020076;
+        public static final int icon_185=0x7f020077;
+        public static final int icon_187=0x7f020078;
+        public static final int icon_189=0x7f020079;
+        public static final int icon_197=0x7f02007a;
+        public static final int icon_199=0x7f02007b;
+        public static final int icon_201=0x7f02007c;
+        public static final int icon_203=0x7f02007d;
+        public static final int icon_208=0x7f02007e;
+        public static final int icon_21=0x7f02007f;
+        public static final int icon_210=0x7f020080;
+        public static final int icon_212=0x7f020081;
+        public static final int icon_214=0x7f020082;
+        public static final int icon_216=0x7f020083;
+        public static final int icon_219=0x7f020084;
+        public static final int icon_221=0x7f020085;
+        public static final int icon_223=0x7f020086;
+        public static final int icon_231=0x7f020087;
+        public static final int icon_234=0x7f020088;
+        public static final int icon_237=0x7f020089;
+        public static final int icon_24=0x7f02008a;
+        public static final int icon_245=0x7f02008b;
+        public static final int icon_247=0x7f02008c;
+        public static final int icon_250=0x7f02008d;
+        public static final int icon_251=0x7f02008e;
+        public static final int icon_255=0x7f02008f;
+        public static final int icon_257=0x7f020090;
+        public static final int icon_259=0x7f020091;
+        public static final int icon_26=0x7f020092;
+        public static final int icon_264=0x7f020093;
+        public static final int icon_267=0x7f020094;
+        public static final int icon_269=0x7f020095;
+        public static final int icon_272=0x7f020096;
+        public static final int icon_281=0x7f020097;
+        public static final int icon_283=0x7f020098;
+        public static final int icon_284=0x7f020099;
+        public static final int icon_285=0x7f02009a;
+        public static final int icon_29=0x7f02009b;
+        public static final int icon_290=0x7f02009c;
+        public static final int icon_291=0x7f02009d;
+        public static final int icon_292=0x7f02009e;
+        public static final int icon_296=0x7f02009f;
+        public static final int icon_298=0x7f0200a0;
+        public static final int icon_31=0x7f0200a1;
+        public static final int icon_34=0x7f0200a2;
+        public static final int icon_37=0x7f0200a3;
+        public static final int icon_40=0x7f0200a4;
+        public static final int icon_54=0x7f0200a5;
+        public static final int icon_59=0x7f0200a6;
+        public static final int icon_61=0x7f0200a7;
+        public static final int icon_64=0x7f0200a8;
+        public static final int icon_66=0x7f0200a9;
+        public static final int icon_68=0x7f0200aa;
+        public static final int icon_70=0x7f0200ab;
+        public static final int icon_72=0x7f0200ac;
+        public static final int icon_74=0x7f0200ad;
+        public static final int icon_77=0x7f0200ae;
+        public static final int icon_80=0x7f0200af;
+        public static final int icon_93=0x7f0200b0;
+        public static final int icon_96=0x7f0200b1;
+        public static final int icon_99=0x7f0200b2;
+        public static final int map_4_nomor=0x7f0200b3;
+        public static final int map_4_passead=0x7f0200b4;
+        public static final int map_5=0x7f0200b5;
+        public static final int map_6=0x7f0200b6;
+        public static final int map_7=0x7f0200b7;
+        public static final int map_8=0x7f0200b8;
+        public static final int selector_tab=0x7f0200b9;
+        public static final int selector_tab_background=0x7f0200ba;
+        public static final int tab_home_btn=0x7f0200bb;
+        public static final int tab_map_btn=0x7f0200bc;
+        public static final int tab_my_btn=0x7f0200bd;
+        public static final int tab_shopping_btn=0x7f0200be;
+        public static final int tabhost_bg_nol=0x7f0200bf;
+        public static final int tabhost_bg_sel=0x7f0200c0;
+        public static final int whiterounded_half_bg=0x7f0200c1;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1131,7 +1217,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050046;
+        public static final int action_settings=0x7f050045;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1150,10 +1236,9 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
-        public static final int imageview=0x7f050044;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
-        public static final int ll_main=0x7f05003c;
+        public static final int ll_main=0x7f05003e;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1161,7 +1246,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
-        public static final int realtabcontent=0x7f050043;
+        public static final int rl_top=0x7f05003c;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1179,15 +1264,15 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int tab_content=0x7f05003d;
-        public static final int tab_rb_a=0x7f05003f;
-        public static final int tab_rb_b=0x7f050040;
-        public static final int tab_rb_c=0x7f050041;
-        public static final int tab_rb_d=0x7f050042;
-        public static final int tabs_rg=0x7f05003e;
-        public static final int textview=0x7f050045;
+        public static final int tab_content=0x7f05003f;
+        public static final int tab_rb_a=0x7f050041;
+        public static final int tab_rb_b=0x7f050042;
+        public static final int tab_rb_c=0x7f050043;
+        public static final int tab_rb_d=0x7f050044;
+        public static final int tabs_rg=0x7f050040;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
+        public static final int tv_title=0x7f05003d;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1242,11 +1327,10 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_main=0x7f030018;
+        public static final int home_fragment=0x7f030018;
         public static final int main=0x7f030019;
-        public static final int main_tab_layout=0x7f03001a;
+        public static final int my_fragment=0x7f03001a;
         public static final int support_simple_spinner_dropdown_item=0x7f03001b;
-        public static final int tab_item_view=0x7f03001c;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1298,15 +1382,6 @@ containing a value of this type.
     }
     public static final class style {
         /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
@@ -1320,9 +1395,16 @@ containing a value of this type.
          */
         public static final int AppBaseTheme=0x7f0b008b;
         /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b008c;
+        public static final int Home_LinearLayout_H=0x7f0b008d;
+        public static final int Home_among_icon=0x7f0b008f;
+        public static final int Home_left_icon=0x7f0b008e;
+        public static final int Home_right_icon=0x7f0b0090;
+        public static final int My_among_LinearLayout=0x7f0b0091;
+        public static final int My_among_text=0x7f0b0093;
+        public static final int My_left_image=0x7f0b0092;
+        public static final int My_right_arrow=0x7f0b0094;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;
